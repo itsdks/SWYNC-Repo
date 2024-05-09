@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+body {
+  background: hsl(0, 18%, 97%);
+}
+header {
+  background: #fff;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+  float: left;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.pages {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.doctor-details {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  background: #fff;
+}
+.doctor-details:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.doctor-details h4 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.doctor-details a {
+  text-decoration: none;
+}
+.doctor {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.doctor label {
+  text-align: left;
+  display: block;
+}
+.doctor h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.doctor p {
+  margin-bottom: 20px;
+}
+.doctor input, .doctor textarea, .doctor select, .signup input, .login input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.doctor button, .login button, .signup button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.datePicker {
+  width: 100%;
+  padding: 6px 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.booking-page {
+  background: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #fafafa;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+.booking-page h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.booking-page p {
+  margin-bottom: 5px;
+  text-align: left;
+}
+.booking-page button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  margin: 30px 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.booking-page span {
+  position: relative;
+  bottom: 200px;
+  left: 300px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+.home h2, .bookings h2, .swap-details h2 {
+  text-align: center;
+  color: #f1356d;
+}
+.doctor-details span {
+  position: relative;
+  bottom: 50px;
+  left: 490px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+.active {
+  color: #f1356d;
+}
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+.signup h3, .login h3 {
+  text-align: center;
+  color: #f1356d;
+  margin-bottom: 20px;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.navbar button {
+  background: #fff;
+  color: #f1356d;
+  border: 2px solid #f1356d;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: 'Quicksand';
+  cursor: pointer;
+  font-size: 1em;
+}
+nav{
+  display: flex;
+  align-items: center;
+  float: right;
+}
+.navbar span{
+  padding-right: 5px;
+}
